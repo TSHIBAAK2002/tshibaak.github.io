@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-color: #121010;
+    height: 100%;
+    background-image: url(../images/ampoule.jpg);
+    background-size:cover;
+    background-position: center;
+    opacity: 100%;
+    
+}
+.contain .infos{
+    display: flex;
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    height: 560px;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin-top: 120px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px 15px 15px 15px;
+    
+  
+}
+.contain .infos .image{
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+}
+.contain .infos .text{
+    width: 100%;
+    padding-left: 60px;
+}
+
+.contain .span1{
+    float: left;
+      height: 35px;
+      width: 120px;
+      margin-left: 1%;
+      margin-right: 5%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      font-weight: bold;
+      background-color: rgb(61, 204, 92);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border:  1px solid rgb(0, 0, 0);
+      box-shadow: 4px 4px 4px rgb(0, 0, 0);
+      border-radius: 10px 10px 10px 10px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        text-align: center;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+  }
+.contain .span1:hover{
+    /*les effets que prend le texte quand on le survol*/
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgb(48, 191, 79);
+    border: 1px solid black;
+    color: #fcfcfc;
+  }
+  .contain .span2{
+    float: left;
+      height: 35px;
+      width: 120px;
+      margin-left: 1%;
+      margin-right: 5%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      font-weight: bold;
+      background-color: rgb(215, 68, 57);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border:  1px solid rgb(0, 0, 0);
+      box-shadow: 4px 4px 4px rgb(0, 0, 0);
+      border-radius: 10px 10px 10px 10px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        text-align: center;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        
+  }
+.contain .span2:hover{
+    /*les effets que prend le texte quand on le survol*/
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgb(203, 56, 45);
+    border: 1px solid black;
+    color: #fcfcfc;
+  }
+
+  .contain .client input {
+    height: 50px;
+    width: 70%;
+    margin: 16px 0;
+    position: relative;
+    border-radius: 10px;
+  }

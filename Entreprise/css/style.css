@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color:#4e4e4e ;
+}
+
+.Apropos{
+  text-align: justify;
+}
+.navbar{
+  background-color: black;
+  color: whitesmoke;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  padding-top: 7px;
+  padding-left: 20px;
+  box-shadow: 0px 1px 2px 1px whitesmoke;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.navbar .logo{
+  display: flex;
+}
+.navbar .logo h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 10px;
+  
+}
+.navbar .logo img{
+  height: 35px;
+  cursor: pointer;
+}
+.navbar .navlink a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navbar .navlink a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: hidden;
+}
+.navbar .navlink .curent{
+  border-bottom: 3px groove rgb(255, 255, 255);
+}
+
+.contenair .text{
+  margin-top: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      color: rgb(0, 0, 0);
+      
+      margin-left: 20px;
+
+  color: #ffffff;
+  position: relative;
+}
+.banniere{
+ /*la grande image*/
+ display: flex;
+ height: 800px;
+ 
+ overflow: hidden;
+ background-position: center;
+ 
+ background-image: url(../images/ampoule.jpg);
+ background-size: cover;
+ border-radius: 20px;
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-top: 15px;
+ padding-top: 1px;
+ border-bottom: 1px rgb(153, 129, 129) solid;
+}
+
+.section01{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+.section01 .case{
+  color: black;
+  padding-top: 5px;
+}
+.section01 .case h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+  color: white;
+}
+.section01 .case .contain .infos{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 560px;
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.section01 .case .contain .infos .image{
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 400px;
+}
+.section01 .case .contain .infos .text{
+  width: 100%;
+  padding-left: 60px;
+}
+
+
+
+.titre{
+  display: flex;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  align-items: center;
+  
+}
+
+.titre h3{
+  margin-left: 15px;
+}
+.section1 {
+  /*les lignes contetant */
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-around;
+}
+.section1 span {
+  /*le texte "cliquez pour en voir plus"*/
+  float: left;
+  height: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 110%;
+  border: solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    
+}
+.section1 span:hover {
+  /*les effets que prend le texte quand on le survol*/
+  box-shadow: 0px 0px 4px rgb(35, 35, 36);
+  background-color: #f2f2f2;
+  color: #020202;
+}
+.gauche {
+  /*represente la taille des cartes */
+  
+  height: 400px;
+  width: 300px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 3px rgb(245, 244, 244);
+  border-radius: 10px;
+  margin-left: 20px;
+  
+}
+.gauche:hover {
+  /*l'effet de la carte quand on la survol*/
+  box-shadow: 0px 0px 30px rgba(237, 236, 236, 0.897);
+}
+
+.gauche .la_forme {
+  /*les caracteristiques de la bande noir*/
+  margin-top: -100px; /*la position*/
+  padding-top: 4px;
+  height: 42%; /*la taille*/
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 1s ease; /*le temps avant apparition*/
+  color: rgb(1, 1, 1);
+  opacity: 0%; /*la rend invisible*/
+}
+.gauche .make_up {
+  /*la bande noir apparait*/
+  background-color: #0a0a0abd;
+  opacity: 100%;
+}
+.gauche .la_photo {
+  /*les paramettres de la photo de fond*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.lebout{
+  display: flex;
+  align-items: center;
+  margin-left: 700px;
+}
+.lebout {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ 
+}
+
+.lebout .bouton{
+  height: 50px;
+  width: 150px;
+  align-items: center;
+  border-radius: 10px;
+  border:  1px rgb(253, 253, 253);
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: rgb(151, 142, 142);
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 2px 5px 2px rgb(252, 252, 252);
+  background-color: #4e4e4e;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.lebout .bouton:hover{
+
+  box-shadow: 0px 0px 8px #c7c2c2;
+}
+
+.cont_footer{
+  max-width: 1170px;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #d27171;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #fff;
+  padding-left: 8px;
+}
+/*la partie responsive*/
+@media(max-width: 767px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+      width: 100%;
+  }
+}

@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body{
+    background-color:#4e4e4e ;
+  }
+  
+  .navbar{
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    padding-top: 7px;
+    padding-left: 20px;
+    box-shadow: 0px 1px 2px 1px whitesmoke;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .navbar .logo{
+    display: flex;
+  }
+  .navbar .logo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+  }
+  .navbar .logo img{
+    height: 25px;
+    cursor: pointer;
+  }
+  .navbar .navlink a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .navbar .navlink a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: hidden;
+  }
+  .navbar .navlink .curent{
+    border-bottom: 3px groove rgb(255, 255, 255);
+  }
+  
+  .contenair .text{
+    margin-top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        
+        margin-left: 20px;
+  
+    color: #ffffff;
+    position: relative;
+  }
+  .banniere{
+   /*la grande image*/
+   display: flex;
+   height: 800px;
+   
+   overflow: hidden;
+   background-position: center;
+   
+   background-image: url(../images/ampoule.jpg);
+   background-size: cover;
+   border-radius: 20px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 15px;
+   padding-top: 1px;
+   border-bottom: 1px rgb(153, 129, 129) solid;
+  }
+  
+  .section01{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.section01 .case{
+    color: black;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.section01 .case .titre{
+  margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.titree{
+  display: flex;
+  margin-left: 55px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  
+}
+
+.titree h3{
+  margin-left: 5px;
+}
+.section01 .case h2{
+    text-align: center;
+    color: white;
+}
+.section01 .case .contain .infos{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.section01 .case .contain span{
+  float: left;
+    height: 28px;
+    width: 148px;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    background-color: rgb(61, 61, 204);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:  2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      text-align: center;
+      font-size: 15px;
+      color: #ffffff;
+      font-weight: bold;
+}
+.section01 .case .contain span:hover{
+  /*les effets que prend le texte quand on le survol*/
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  background-color: rgb(48, 48, 183);
+  border: 1px solid black;
+  color: #fcfcfc;
+}
+.section01 .case .contain .infos .image{
+    
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 400px;
+    border-radius: 15px 15px 15px 15px;
+}
+.section01 .case .contain .infos .text{
+    width: 100%;
+    padding-left: 60px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .cont_footer{
+    max-width: 1170px;
+    margin: auto;
+  }
+  ul{
+    list-style: none;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #d27171;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+  }
+  /*la partie responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+  }
